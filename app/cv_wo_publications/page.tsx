@@ -46,7 +46,7 @@ const CV = () => (
     </section>
 
     {/* Education */}
-    <section className="space-y-4">
+    <section className=" bg-white rounded-lg shadow-md p-6 space-y-4">
       <h2 className="text-xl font-semibold text-blue-700">Education</h2>
       <div className="space-y-2">
         <div>
@@ -73,7 +73,7 @@ const CV = () => (
       </div>
     </section>
 
-<section className="space-y-4">
+<section className=" bg-white rounded-lg shadow-md p-6 space-y-4">
       <h2 className="text-xl font-semibold text-blue-700">Language Skills</h2>
       <ul className="list-disc pl-5 space-y-1">
         <li>Czech (native speaker)</li>
@@ -82,7 +82,7 @@ const CV = () => (
       </ul>
     </section>
 
-    <section className="space-y-4">
+    <section className="bg-white rounded-lg shadow-md p-6 space-y-4">
       <h2 className="text-xl font-semibold text-blue-700">Technical Skills</h2>
       <ul className="list-disc pl-5 space-y-1">
         <li>Linux, Windows</li>
@@ -92,7 +92,7 @@ const CV = () => (
     </section>
 
     {/* Other Activities */}
-    <section className="space-y-4">
+    <section className="bg-white rounded-lg shadow-md p-6 space-y-4">
       <h2 className="text-2xl font-semibold text-blue-700">Activities at FNSPE</h2>
       <ul className="list-none space-y-2">
         <li>• Promotion of the faculty (Open Days, Festival Vědy, Noc vědců, lectures at high schools)</li>
@@ -103,7 +103,7 @@ const CV = () => (
 
 
     {/*Conferences*/}
-<section className="space-y-4">
+<section className=" bg-white rounded-lg shadow-md p-6 space-y-4">
   <h2 className="text-2xl font-semibold text-blue-700">Conferences</h2>
   <div>
     <h3 className="text-xl font-semibold">2024</h3>
@@ -173,7 +173,7 @@ const CV = () => (
 
 
     {/* Stays Abroad */}
-    <section className="space-y-4">
+    <section className=" bg-white rounded-lg shadow-md p-6 space-y-4">
       <h2 className="text-xl font-semibold text-blue-700">Stays Abroad</h2>
       <ul className="list-disc pl-5 space-y-1">
         <li>July 10-13 2018. Kanazawa Institute of Technology, Kanazawa, Japan.</li>
@@ -185,7 +185,7 @@ const CV = () => (
     </section>
 
     {/* Awards */}
-    <section className="space-y-4">
+    <section className=" bg-white rounded-lg shadow-md p-6 space-y-4">
       <h2 className="text-xl font-semibold text-blue-700">Awards</h2>
       <ul className="list-disc pl-5 space-y-1">
         <li>2018: Award of Nadace Josefa, Marie a Zdeňky Hlávkových for excellent master’s thesis</li>
@@ -194,7 +194,7 @@ const CV = () => (
     </section>
 
     {/* Soft Skills */}
-    <section className="space-y-4">
+    <section className=" bg-white rounded-lg shadow-md p-6 space-y-4">
       <h2 className="text-xl font-semibold text-blue-700">Soft Skills</h2>
       <ul className="list-disc pl-5 space-y-1">
         <li>Communication skills, Teamwork</li>
