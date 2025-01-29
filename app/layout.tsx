@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   description: "Personal web for Pavel Eichler",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,13 +26,38 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Navbar/>
+      <body
+        className="min-h-screen bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/bg.jpg')", // Nastavenie obrázku ako pozadie
+          backgroundSize: 'cover', // Zabezpečí, že obrázok pokryje celú obrazovku
+          backgroundPosition: 'center', // Umiestni obrázok na stred
+          backgroundAttachment: 'fixed', // Udrží obrázok na mieste pri scrollovaní
+        }}
+      >
+        <Navbar />
         <main className="relative overflow-hidden">
           {children}
         </main>
       </body>
     </html>
-    
   );
 }
+
+
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <body>
+//         <Navbar/>
+//         <main className="relative overflow-hidden">
+//           {children}
+//         </main>
+//       </body>
+//     </html>
+//   );
+// } 
