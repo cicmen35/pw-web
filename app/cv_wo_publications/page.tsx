@@ -11,7 +11,7 @@ const CV = () => (
     }}
     >
     <header className="text-center">
-      <h1 className="bg-gradient-to-r from-green-400 to-blue-400 p-4 rounded-md inline-block border-2 border-gray-500 text-3xl  font-bold ">Pavel Eichler</h1>
+      <h1 className="bg-gradient-to-r from-green-400 to-blue-400 p-4 rounded-lg inline-block border-2 border-gray-500 text-3xl  font-bold ">Pavel Eichler</h1>
       <div className="text-base text-white">Personal data</div>
     </header>
 

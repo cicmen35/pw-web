@@ -14,8 +14,6 @@ const Teaching = () => {
         className="mx-auto w-full max-w-3xl object-cover" 
       />
 
-    
-
       {/* Teaching Activities */}
       <div className = "p-8 space-y-6"
   style={{

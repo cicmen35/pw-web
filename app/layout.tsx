@@ -45,19 +45,3 @@ export default function RootLayout({
 }
 
 
-// export default function RootLayout({
-//   children,
-// }: Readonly<{
-//   children: React.ReactNode;
-// }>) {
-//   return (
-//     <html lang="en">
-//       <body>
-//         <Navbar/>
-//         <main className="relative overflow-hidden">
-//           {children}
-//         </main>
-//       </body>
-//     </html>
-//   );
-// } 

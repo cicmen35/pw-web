@@ -40,13 +40,13 @@ const Main = () => {
       <section className="flex flex-col items-center text-center mb-16 ">
         <div className="max-w-2xl space-y-6 ">
           <h2 className="text-4xl font-semibold text-blue-700">About This Site</h2>
-          <p className="text-lg text-gray-700 mb-6">
+          <p className="text-lg text-gray-700  mb-6 py-3">
             Discover my latest research, teaching schedules and academic publications.
             This site serves as a hub for all my professional activities.
           </p>
           <a
             href="#about"
-            className="bg-blue-600 text-black px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition mt-16"
+            className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition mt-8"
           >
             Learn More
           </a>
@@ -54,25 +54,26 @@ const Main = () => {
       </section>
 
 
-<section id="about" className="flex flex-col items-center justify-between gap-12">
- <div className="flex justify-center">
-          <img
-            src="/eichler.jpg"
-            alt="Professor Pavel Eichler"
-            className="w-48 h-48 lg:w-64 lg:h-64 object-cover rounded-full border-4 border-blue-600 shadow-lg"
-          />
-        </div>
+<section id="about" className="flex flex-col items-center justify-between gap-12 text-center">
+ 
         <div className="lg:w-1/2 space-y-4 text-center lg:text-left">
           <h2 className="text-4xl font-semibold text-gray-800">Ing. Pavel Eichler, Ph.D.</h2>
           <p className="text-lg text-gray-600">Scientific Researcher | SOČ Supervisor</p>
 
+        <div className="flex justify-center">
+          <img
+            src="/eichler.jpg"
+            alt="Professor Pavel Eichler"
+            className=" lg:w-64 lg:h-64  border-4 border-blue-600 shadow-lg"
+          />
+        </div>
           {/* Contact Info with icons */}
           <div className="text-lg text-gray-600 space-y-2">
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 justify-center">
               <Phone className="text-blue-600" size={20} /> {/* Phone icon */}
               Phone: +420 778 547 412
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 justify-center">
               <Mail className="text-blue-600" size={20} /> {/* Email icon */}
               Email:{" "}
               <a
@@ -82,7 +83,7 @@ const Main = () => {
                 pavel.eichler@fjfi.cvut.cz
               </a>
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 justify-center">
               <Building2 className="text-blue-600" size={20} /> {/* Office icon */}
               Office: Děčín, Pohraniční, Room 211
             </p>
