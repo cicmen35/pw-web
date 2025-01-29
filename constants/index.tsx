@@ -1,6 +1,4 @@
 import { Phone, Mail, Building2 } from "lucide-react"; 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faPhone, faEnvelope, faBuilding } from '@fortawesome/free-solid-svg-icons';
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -25,7 +23,7 @@ const Main = () => {
       {/* Video Section */}
       <section className="flex justify-center mb-16">
         <video
-          className="w-full max-w-full rounded-lg shadow-lg"
+          className="w-full rounded-lg shadow-lg "
           src="/video.mp4" 
           autoPlay
           loop
