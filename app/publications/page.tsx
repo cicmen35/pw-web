@@ -24,7 +24,8 @@ const Publications = () => {
       </p>
 
       {/* Impacted papers (WoS & Scopus) */}
-      <h2 className="text-2xl font-semibold mt-6">Impacted papers (WoS & Scopus)</h2>
+      <div className="bg-white p-6 rounded-lg shadow-lg space-y-6 mb-8">
+      <h2 className=" text-2xl font-semibold mt-6">Impacted papers (WoS & Scopus)</h2>
       <ul className="mt-4 list-decimal pl-6">
         <li>
           <strong>Fučík, R., Eichler, P., Straka, R., Pauš, P., Klinkovský, J., Oberhuber, T. (2019).</strong> On optimal node spacing for immersed boundary–lattice Boltzmann method in 2D and 3D. Computers and Mathematics with Applications, 77(4), 1144-1162.{" "}
@@ -125,8 +126,10 @@ const Publications = () => {
           </a>
         </li>
       </ul>
+      </div>
 
       {/* Contribution in proceedings */}
+      <div className="bg-white p-6 rounded-lg shadow-lg space-y-6 mb-8">
       <h2 className="text-2xl font-semibold mt-6">Contribution in proceedings</h2>
       <ul className="mt-4 list-decimal pl-6">
         <li>
@@ -153,9 +156,12 @@ const Publications = () => {
           </a>
         </li>
       </ul>
+      </div>
+
 
       {/* Book chapters */}
-      <h2 className="text-2xl font-semibold mt-6">Book chapters</h2>
+      <div className="bg-white p-6 rounded-lg shadow-lg space-y-4">
+      <h2 className="text-2xl font-semibold  mt-6">Book chapters</h2>
       <ul className="mt-4 list-decimal pl-6">
         <li>
           <strong>Chabiniok, R., Škardová, K., Galabov, R., Eichler, P., Gusseva, M., Janoušek, J., Fučík, R., Tintera, J., Hussain, T.</strong> Translational Cardiovascular Modeling: Tetralogy of Fallot and Modeling of Diseases. In: Modeling Biomaterials. Birkhäuser, Cham, 2021. p. 241-276.{" "}
@@ -169,6 +175,7 @@ const Publications = () => {
           </a>
         </li>
       </ul>
+     </div>
     </main>
   );
 };

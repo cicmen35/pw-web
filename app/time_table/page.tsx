@@ -14,25 +14,6 @@ const Teaching = () => {
         className="mx-auto w-full max-w-3xl object-cover" 
       />
 
-      {/* Tabuľka */}
-      <div className="overflow-x-auto mt-8">
-        <table className="min-w-full table-auto border-collapse border border-gray-300">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="px-6 py-3 text-center text-lg font-semibold text-gray-800 border-b">Kód</th>
-              <th className="px-6 py-3 text-center text-lg font-semibold text-gray-800 border-b">Předmět</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="bg-white">
-              <td className="px-6 py-4 text-center text-lg text-gray-700 border-b">18PW</td>
-              <td className="px-6 py-4 text-center text-lg text-gray-700 border-b">Prostředí webu a popisné jazyky</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-
       {/* Teaching Activities */}
       <div className = "p-8 space-y-6"
   style={{
@@ -48,7 +29,7 @@ const Teaching = () => {
         <ul className="list-disc pl-6 space-y-2 text-lg">
           <li>
             <strong>Exercises</strong>
-            <ul className=" pl-6">
+            <ul className="list-disc pl-6">
               <li>Calculus 1, 2, 3, 4 (10 semesters total)</li>
               <li>Mathematics 1, 2 (5 semesters total)</li>
             </ul>
