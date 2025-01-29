@@ -1,6 +1,6 @@
 import { Phone, Mail, Building2 } from "lucide-react"; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faBuilding } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faPhone, faEnvelope, faBuilding } from '@fortawesome/free-solid-svg-icons';
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -14,7 +14,7 @@ export const NAV_LINKS = [
 
 const Main = () => {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 px-8 py-12">
+    <main className="min-h-screen  px-8 py-12">
       {/* Header */}
       <header className="text-center mb-12">
         <h1 className="text-3xl font-bold text-blue-600 mb-4">
@@ -46,7 +46,7 @@ const Main = () => {
           </p>
           <a
             href="#about"
-            className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition mt-8"
+            className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md  mt-8"
           >
             Learn More
           </a>
@@ -69,11 +69,11 @@ const Main = () => {
         </div>
           {/* Contact Info with icons */}
           <div className="text-lg text-gray-600 space-y-2">
-            <p className="flex items-center gap-2 justify-center">
+            <p className="flex items-center gap-4 justify-center">
               <Phone className="text-blue-600" size={20} /> {/* Phone icon */}
               Phone: +420 778 547 412
             </p>
-            <p className="flex items-center gap-2 justify-center">
+            <p className="flex items-center gap-4 justify-center">
               <Mail className="text-blue-600" size={20} /> {/* Email icon */}
               Email:{" "}
               <a
@@ -83,7 +83,7 @@ const Main = () => {
                 pavel.eichler@fjfi.cvut.cz
               </a>
             </p>
-            <p className="flex items-center gap-2 justify-center">
+            <p className="flex items-center gap-4 justify-center">
               <Building2 className="text-blue-600" size={20} /> {/* Office icon */}
               Office: Děčín, Pohraniční, Room 211
             </p>

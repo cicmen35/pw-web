@@ -17,6 +17,7 @@ const CurrentOrPastResearches = () => {
                 Your browser does not support the video tag.
             </video>
         </div>
+
       {/* Research Interests Section */}
       <div className="bg-white p-6 rounded-lg shadow-lg space-y-4">
         <h2 className="text-3xl font-semibold text-blue-700 mb-6">Research Interests</h2>
