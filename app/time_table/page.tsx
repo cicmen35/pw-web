@@ -32,26 +32,36 @@ const Teaching = () => {
         </table>
       </div>
 
+
       {/* Teaching Activities */}
-      <div className=" bg-white rounded-lg shadow-md p-6 mt-12 text-left max-w-4xl mx-auto">
+      <div className = "p-8 space-y-6"
+  style={{
+      backgroundImage: "url('background.jpg')", // Path from the 'public' folder
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundAttachment: 'fixed',
+      minHeight: '100vh',
+    }}
+    >
+      <div className=" bg-white rounded-lg shadow-md p-6 mt-12 text-left max-w-4xl mx-auto" >
         <h2 className="text-2xl font-semibold text-blue-700 mb-4">Teaching Activities</h2>
         <ul className="list-disc pl-6 space-y-2 text-lg">
           <li>
             <strong>Exercises</strong>
-            <ul className="list-disc pl-6">
+            <ul className=" pl-6">
               <li>Calculus 1, 2, 3, 4 (10 semesters total)</li>
               <li>Mathematics 1, 2 (5 semesters total)</li>
             </ul>
           </li>
           <li>
             <strong>Seminars</strong>
-            <ul className="list-disc pl-6">
+            <ul className=" pl-6">
               <li>Modern Trends in Corporate Information Technologies (1 semester)</li>
             </ul>
           </li>
           <li>
             <strong>Lectures</strong>
-            <ul className="list-disc pl-6">
+            <ul className=" pl-6">
               <li>Lattice Boltzmann Method (5 semesters total)</li>
               <li>Introduction to Computational Physics (3 semesters total)</li>
               <li>Probability and Statistics (1 semester total)</li>
@@ -61,7 +71,7 @@ const Teaching = () => {
           </li>
           <li>
             <strong>Supervising Students</strong>
-            <ul className="list-disc pl-6">
+            <ul className="pl-6">
               <li>Supervisor of 2 MSc students at FNSPE</li>
               <li>Co-supervisor of 3 MSc students at FNSPE</li>
               <li>Supervisor of 2 BSc students at FNSPE</li>
@@ -71,6 +81,7 @@ const Teaching = () => {
         </ul>
       </div>
     </div>
+  </div>
   );
 };
 

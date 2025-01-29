@@ -55,17 +55,24 @@ const Main = () => {
 
 
 <section id="about" className="flex flex-col items-center justify-between gap-12">
+ <div className="flex justify-center">
+          <img
+            src="/Eichler.jpg"
+            alt="Professor Pavel Eichler"
+            className="w-48 h-48 lg:w-64 lg:h-64 object-cover rounded-full border-4 border-blue-600 shadow-lg"
+          />
+        </div>
         <div className="lg:w-1/2 space-y-4 text-center lg:text-left">
           <h2 className="text-4xl font-semibold text-gray-800">Ing. Pavel Eichler, Ph.D.</h2>
           <p className="text-lg text-gray-600">Scientific Researcher | SOČ Supervisor</p>
           <div className=" text-lg text-gray-600">
             <p className="flex items-center gap-2 ">
-              <FontAwesomeIcon icon={faPhone}  className="text-blue-600  " />
-               Phone: +420 778 547 412
+              {/*<FontAwesomeIcon icon={faPhone}  className="text-blue-600  " />*/}
+              ☎️ Phone: +420 778 547 412
             </p>
             <p className="flex items-center gap-2 ">
-              <FontAwesomeIcon icon={faEnvelope}  className="text-blue-600 " />
-               Email:{" "}
+              {/*<FontAwesomeIcon icon={faEnvelope}  className="text-blue-600 " />*/}
+               ✉️ Email:{" "}
               <a
                 href="mailto:pavel.eichler@fjfi.cvut.cz"
                 className="text-blue-500 underline hover:text-blue-700 transition"
@@ -74,23 +81,12 @@ const Main = () => {
               </a>
             </p>
             <p className="flex items-center gap-2  ">
-              <FontAwesomeIcon icon={faBuilding} className="text-blue-600 " />
-               Office: Děčín, Pohraniční, Room 211
+              {/*<FontAwesomeIcon icon={faBuilding} className="text-blue-600 " />*/}
+              🏢 Office: Děčín, Pohraniční, Room 211
             </p>
           </div>
         </div>
-
-        <div className="flex justify-center">
-          <img
-            src="/Eichler.jpg"
-            alt="Professor Pavel Eichler"
-            className="w-48 h-48 lg:w-64 lg:h-64 object-cover rounded-full border-4 border-blue-600 shadow-lg"
-          />
-        </div>
       </section>
-
-
-
     </main>
   );
 };

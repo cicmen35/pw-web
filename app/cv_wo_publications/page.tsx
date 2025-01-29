@@ -1,15 +1,23 @@
 import React from 'react';
 
 const CV = () => (
-  <div className="p-8 space-y-6">
+  <div className="p-8 space-y-6"
+  style={{
+      backgroundImage: "url('background.jpg')", // Path from the 'public' folder
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundAttachment: 'fixed',
+      minHeight: '100vh',
+    }}
+    >
     <header className="text-center">
-      <h1 className="text-3xl font-bold">Pavel Eichler</h1>
-      <div className="text-sm text-gray-600">Personal data</div>
+      <h1 className="bg-gradient-to-r from-green-400 to-blue-400 p-4 rounded-md inline-block border-2 border-gray-500 text-3xl  font-bold ">Pavel Eichler</h1>
+      <div className="text-base text-white">Personal data</div>
     </header>
 
     {/* Personal Data */}
     <section className="space-y-4">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4 font bold text-white">
         <div>
           <strong>Address</strong>
           <p>Czech Republic</p>
@@ -28,7 +36,7 @@ const CV = () => (
         </div>
         <div>
           <strong>Email</strong>
-          <p><a href="mailto:pavel.eichler@fjfi.cvut.cz" className="text-blue-600">pavel.eichler@fjfi.cvut.cz</a></p>
+          <p><a href="mailto:pavel.eichler@fjfi.cvut.cz" className="text-white">pavel.eichler@fjfi.cvut.cz</a></p>
         </div>
         <div>
           <strong>ORCID</strong>

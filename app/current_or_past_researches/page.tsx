@@ -18,9 +18,9 @@ const CurrentOrPastResearches = () => {
             </video>
         </div>
       {/* Research Interests Section */}
-      <div>
+      <div className="bg-white p-6 rounded-lg shadow-lg space-y-4">
         <h2 className="text-3xl font-semibold text-blue-700 mb-6">Research Interests</h2>
-        <ul className="list-disc pl-6 space-y-4 text-gray-800">
+        <ul className=" pl-6 space-y-4 text-gray-800">
           <li>
             <strong>Lattice Boltzmann method</strong>
             <p className="text-gray-600">
@@ -49,7 +49,7 @@ const CurrentOrPastResearches = () => {
           </li>
           <li>
             <strong>Application of AI models</strong>
-            <ul className="list-disc pl-6 space-y-2 text-gray-600">
+            <ul className=" pl-6 space-y-2 text-gray-600">
               <li>Application of neural network models for text recognition.</li>
               <li>Use of neural network models for dimensionality reduction in numerical methods.</li>
             </ul>
@@ -58,9 +58,9 @@ const CurrentOrPastResearches = () => {
       </div>
 
       {/* Research Projects Section */}
-      <div>
+      <div className="bg-white p-6 rounded-lg shadow-lg space-y-4">
         <h2 className="text-3xl font-semibold text-blue-700 mb-6">Research Projects</h2>
-        <ul className="list-disc pl-6 space-y-4 text-gray-800">
+        <ul className=" pl-6 space-y-4 text-gray-800">
           <li>
             <strong>IIS medic-patient</strong>, project no. FW06010667 of Technology Agency of the Czech Republic (2023-2025).
           </li>
@@ -83,9 +83,9 @@ const CurrentOrPastResearches = () => {
       </div>
 
       {/* Submitted Research Projects Section */}
-      <div>
+      <div className="bg-white p-6 rounded-lg shadow-lg space-y-4">
         <h2 className="text-3xl font-semibold text-blue-700 mb-6">Submitted Research Projects</h2>
-        <ul className="list-disc pl-6 space-y-6 text-gray-800">
+        <ul className=" pl-6 space-y-6 text-gray-800">
           <li className="space-y-2">
             <strong className="text-xl text-gray-800">
               Development, analysis, and applications of advanced lattice Boltzmann methods
