@@ -1,4 +1,4 @@
-
+import { Phone, Mail, Building2 } from "lucide-react"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faBuilding } from '@fortawesome/free-solid-svg-icons';
 
@@ -57,7 +57,7 @@ const Main = () => {
 <section id="about" className="flex flex-col items-center justify-between gap-12">
  <div className="flex justify-center">
           <img
-            src="/Eichler.jpg"
+            src="/eichler.jpg"
             alt="Professor Pavel Eichler"
             className="w-48 h-48 lg:w-64 lg:h-64 object-cover rounded-full border-4 border-blue-600 shadow-lg"
           />
@@ -65,14 +65,16 @@ const Main = () => {
         <div className="lg:w-1/2 space-y-4 text-center lg:text-left">
           <h2 className="text-4xl font-semibold text-gray-800">Ing. Pavel Eichler, Ph.D.</h2>
           <p className="text-lg text-gray-600">Scientific Researcher | SOČ Supervisor</p>
-          <div className=" text-lg text-gray-600">
-            <p className="flex items-center gap-2 ">
-              {/*<FontAwesomeIcon icon={faPhone}  className="text-blue-600  " />*/}
-              ☎️ Phone: +420 778 547 412
+
+          {/* Contact Info with icons */}
+          <div className="text-lg text-gray-600 space-y-2">
+            <p className="flex items-center gap-2">
+              <Phone className="text-blue-600" size={20} /> {/* Phone icon */}
+              Phone: +420 778 547 412
             </p>
-            <p className="flex items-center gap-2 ">
-              {/*<FontAwesomeIcon icon={faEnvelope}  className="text-blue-600 " />*/}
-               ✉️ Email:{" "}
+            <p className="flex items-center gap-2">
+              <Mail className="text-blue-600" size={20} /> {/* Email icon */}
+              Email:{" "}
               <a
                 href="mailto:pavel.eichler@fjfi.cvut.cz"
                 className="text-blue-500 underline hover:text-blue-700 transition"
@@ -80,9 +82,9 @@ const Main = () => {
                 pavel.eichler@fjfi.cvut.cz
               </a>
             </p>
-            <p className="flex items-center gap-2  ">
-              {/*<FontAwesomeIcon icon={faBuilding} className="text-blue-600 " />*/}
-              🏢 Office: Děčín, Pohraniční, Room 211
+            <p className="flex items-center gap-2">
+              <Building2 className="text-blue-600" size={20} /> {/* Office icon */}
+              Office: Děčín, Pohraniční, Room 211
             </p>
           </div>
         </div>
