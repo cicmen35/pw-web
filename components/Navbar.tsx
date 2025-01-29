@@ -13,12 +13,12 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="flexBetween items-center justify-between max-container padding-container relative z-30 py-5">
-            <Link href="/">
-                <Image src="/fjfi.svg" alt="logo" width={200} height={150}/>
+        <nav className="flexBetween items-center justify-between max-container padding-container relative z-30 py-3">
+            <Link href="https://fjfi.cvut.cz/cz/" target="_blank">
+                <Image src="/fjfi.svg" alt="logo" width={200} height={120} className="h-14 w-auto"/>
             </Link>
 
-            <ul className="hidden lg:flex items-center justify-center flex-1 gap-12">
+            <ul className="hidden lg:flex items-center justify-center flex-1 gap-16">
                 {NAV_LINKS.map((link) => (
                     <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter
                     cursor-pointer pb-1.5 transition-all hover:font-bold">
