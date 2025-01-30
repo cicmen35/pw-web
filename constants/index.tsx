@@ -129,7 +129,7 @@ const Main = () => {
                 <textarea
                     className="w-full border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
                     placeholder="Napište svou zprávu"
-                    rows="4"
+
                 ></textarea>
             </div>
 
