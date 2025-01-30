@@ -36,7 +36,7 @@ const Main = () => {
 
       {/* About This Site Section */}
       <section className="flex flex-col items-center text-center mb-16 ">
-        <div className="max-w-2xl space-y-6 ">
+        <div className="max-w-2xl space-y-3 ">
           <h2 className="text-4xl font-semibold text-blue-700">About This Site</h2>
           <p className="text-lg text-gray-700  mb-6 py-3">
             Discover my latest research, teaching schedules and academic publications.
@@ -44,25 +44,26 @@ const Main = () => {
           </p>
           <a
             href="#about"
-            className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md  mt-8"
+            className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md"
           >
             Learn More
           </a>
-        </div>
+          </div>
+        
       </section>
 
 
 <section id="about" className="flex flex-col items-center justify-between gap-12 text-center">
  
-        <div className="lg:w-1/2 space-y-4 text-center lg:text-left">
+        <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
           <h2 className="text-4xl font-semibold text-gray-800">Ing. Pavel Eichler, Ph.D.</h2>
           <p className="text-lg text-gray-600">Scientific Researcher | SOČ Supervisor</p>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <img
             src="/eichler.jpg"
             alt="Professor Pavel Eichler"
-            className=" lg:w-64 lg:h-64  border-4 border-blue-600 shadow-lg"
+            className=" lg:w-64 lg:h-64  shadow-lg rounded-lg"
           />
         </div>
           {/* Contact Info with icons */}
@@ -82,11 +83,52 @@ const Main = () => {
               </a>
             </p>
             <p className="flex items-center gap-4 justify-center">
-              <Building2 className="text-blue-600" size={20} /> {/* Office icon */}
+              <Building2 className="text-blue-600" size={20} /> 
               Office: Děčín, Pohraniční, Room 211
             </p>
           </div>
         </div>
+      </section>
+
+
+       {/* KONTAKTNÝ FORMULÁR */}
+      <section className="max-w-md mx-auto  p-6 rounded-lg shadow-md">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Kontaktujte ma</h2>
+
+        {/* Meno */}
+        <div className="mb-4">
+          <label className="block text-gray-700 font-medium mb-2">Vaše jméno</label>
+          <input 
+            type="text" 
+            className="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" 
+            placeholder="Zadejte své jméno" 
+          />
+        </div>
+
+        {/* Email */}
+        <div className="mb-4">
+          <label className="block text-gray-700 font-medium mb-2">Váš email</label>
+          <input 
+            type="email" 
+            className="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" 
+            placeholder="Zadejte svůj email" 
+          />
+        </div>
+
+        {/* Správa */}
+        <div className="mb-4">
+          <label className="block text-gray-700 font-medium mb-2">Vaše zpráva</label>
+          <textarea 
+            className="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400" 
+            placeholder="Napište svou zprávu" 
+            rows="4"
+          ></textarea>
+        </div>
+
+        {/* Tlačidlo */}
+        <button className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md text-black py-2 transition">
+          Odeslat zprávu
+        </button>
       </section>
     </main>
   );
