@@ -39,14 +39,15 @@ const Main = () => {
       {/* About This Site Section */}
       <section className="flex flex-col items-center text-center mb-16 ">
         <div className="max-w-2xl space-y-6 ">
-          <h2 className="text-4xl font-semibold text-blue-700">About This Site</h2>
+          <h2 className="text-4xl font-semibold text-blue-700">Further information</h2>
           <p className="text-lg text-gray-700  mb-6 py-3">
-            Discover my latest research, teaching schedules and academic publications.
-            This site serves as a hub for all my professional activities.
+            This site serves as a hub for all my professional activities such as
+              my latest research, teaching schedules and academic publications.
           </p>
           <a
             href="#about"
-            className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md  mt-8"
+            className=" bg-gradient-to-r from-green-400 to-blue-400 text-black px-6 py-3 rounded-lg shadow-md mt-8
+            cursor-pointer pb-1.5 transition-all hover:font-bold"
           >
             Learn More
           </a>
@@ -64,7 +65,7 @@ const Main = () => {
           <img
             src="/eichler.jpg"
             alt="Professor Pavel Eichler"
-            className=" lg:w-64 lg:h-64  border-4 border-blue-600 shadow-lg"
+            className=" lg:w-64 lg:h-64  border-4 border-blue-600 rounded-lg shadow-lg"
           />
         </div>
           {/* Contact Info with icons */}

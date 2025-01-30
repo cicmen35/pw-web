@@ -19,9 +19,6 @@ const Publications = () => {
         </div>
         </section>
       <h1 className="text-4xl font-bold text-blue-600">Publications</h1>
-      <p className="mt-4 text-lg text-gray-700">
-        Here you can find a list of my publications.
-      </p>
 
       {/* Impacted papers (WoS & Scopus) */}
       <div className="bg-white p-6 rounded-lg shadow-lg space-y-6 mb-8">

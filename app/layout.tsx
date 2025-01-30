@@ -29,10 +29,10 @@ export default function RootLayout({
       <body
         className="min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/bg.jpg')", // Nastavenie obrázku ako pozadie
-          backgroundSize: 'cover', // Zabezpečí, že obrázok pokryje celú obrazovku
-          backgroundPosition: 'center', // Umiestni obrázok na stred
-          backgroundAttachment: 'fixed', // Udrží obrázok na mieste pri scrollovaní
+          backgroundImage: "url('/bg.jpg')",// Nastavenie obrázku ako pozadie
+          backgroundSize: 'cover',          // Zabezpečí, že obrázok pokryje celú obrazovku
+          backgroundPosition: 'center',     // Umiestni obrázok na stred
+          backgroundAttachment: 'fixed',    // Udrží obrázok na mieste pri scrollovaní
         }}
       >
         <Navbar />
